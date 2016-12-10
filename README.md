@@ -26,6 +26,12 @@ The results suggest New Yorkers tend to use taxis in a broader range of cases, e
 *NYC has more distinct trip types than does SF*
 <img src="images/facet-plots-both.png?raw=true" alt="facet-plot" width="592" height="525">
 
+*All the trip types together*
+<img src="images/nyc-colors-700x350.png?raw=true" alt="facet-plot">
+<img src="images/sf-colors-700x350.png?raw=true" alt="facet-plot">
+
+
+
 ## Project Status
 This was a project prepared for Alexei Pozdnoukhov's Scalable Spatial Analytics course (CE263) at UC Berkeley in 2014. See 'LDA_writeup.pdf' for details. 
 
