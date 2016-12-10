@@ -23,6 +23,9 @@ The San Francisco dataset consists of complete trip records from one of the city
 ## Results
 The results suggest New Yorkers tend to use taxis in a broader range of cases, especially for commuting, whereas taxi usage in San Francisco is more specialized, with a greater focus on late night and airport trips. This demonstrates a way to infer taxi trip purposes from GPS data alone, without need for surveys or reliance on potentially biased data sources.
 
+NYC has more distinct trip types than does SF
+![facet-plot](images/facet-plots-both.png?raw=true))
+
 
 ## Project Status
 This was a project prepared for Alexei Pozdnoukhov's Scalable Spatial Analytics course (CE263) at UC Berkeley in 2014. See 'LDA_writeup.pdf' for details. 
