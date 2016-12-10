@@ -11,14 +11,14 @@ This project provides a baseline by identifying differences in the taxi market i
 
 ## The Model
 
-LDA is an unsupervised learning model that originally developed to classify text documents into topics, as described by [link](http://www.jmlr.org/papers/v3/blei03a.html "Blei et al. (2003)"). The central idea is that each document in a given collection contains a mixture of latent topics, and these underlying topics give rise to a predictable vocabulary. Thus the pattern of word frequency in the document collection can be used to infer the topics it contains.
+LDA is an unsupervised learning model that originally developed to classify text documents into topics, as described by [Blei et al. (2003)](http://www.jmlr.org/papers/v3/blei03a.html "Blei et al. (2003)"). The central idea is that each document in a given collection contains a mixture of latent topics, and these underlying topics give rise to a predictable vocabulary. Thus the pattern of word frequency in the document collection can be used to infer the topics it contains.
 
-In this application I used LDA to classify trips based on their spatial and temporal attributes. (Other examples [link](https://hal.archives-ouvertes.fr/hal-01052951/ "here") and [link](http://dl.acm.org/citation.cfm?id=2424395 "here.")
+In this application I used LDA to classify trips based on their spatial and temporal attributes. (Other examples [here](https://hal.archives-ouvertes.fr/hal-01052951/ "Come et al.") and [here](http://dl.acm.org/citation.cfm?id=2424395 "Kling.")
 
 ## The Data
 This analysis uses timestamped taxi GPS records from the SFMTA and the NY Taxi and Limousine Commission. 
 
-The San Francisco dataset consists of complete trip records (more than 700,000 total) from one of the city’s larger taxi companies for October 2012 and mid-July through October 2013.[^1] The New York data was made public [link](http://chriswhong.com/open-data/foil_nyc_taxi/ "thanks to Chris Whong") and includes all trips in the city. I chose to use only October 2013, which totals more than 15 million trips. Of these I randomly sampled 10%. 
+The San Francisco dataset consists of complete trip records (more than 700,000 total) from one of the city’s larger taxi companies for October 2012 and mid-July through October 2013. The New York data was made public [thanks to Chris Whong](http://chriswhong.com/open-data/foil_nyc_taxi/ "taxi data") and includes all trips in the city. I chose to use only October 2013, which totals more than 15 million trips. Of these I randomly sampled 10%. 
 
 The data cover the metropolitan area of each city. 
 The data are from 2012 and 2013, a time when Uber was only beginning to impact the taxi market.
@@ -33,5 +33,3 @@ This was a project prepared for Alexei Pozdnoukhov's Scalable Spatial Analytics 
 The jupyter notebooks contain the code I used for data preparation, model building, and some visualization. 
 The code is untested and not very clean. In the future I may find time make it more reproducible. 
 
-
-[^1]: I can't make the SF data public, unfortunately. 
