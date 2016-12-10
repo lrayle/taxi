@@ -13,7 +13,7 @@ This project provides a baseline by identifying differences in the taxi market i
 
 LDA is an unsupervised learning model that originally developed to classify text documents into topics, as described by [Blei et al. (2003)](http://www.jmlr.org/papers/v3/blei03a.html "Blei et al. (2003)"). The central idea is that each document in a given collection contains a mixture of latent topics, and these underlying topics give rise to a predictable vocabulary. Thus the pattern of word frequency in the document collection can be used to infer the topics it contains.
 
-In this application I used LDA to classify trips based on their spatial and temporal attributes. (Other examples [here](https://hal.archives-ouvertes.fr/hal-01052951/ "Come et al.") and [here](http://dl.acm.org/citation.cfm?id=2424395 "Kling.")
+In this application I used LDA to classify trips based on their spatial and temporal attributes. (Other examples [here](https://hal.archives-ouvertes.fr/hal-01052951/ "Come et al.") and [here](http://dl.acm.org/citation.cfm?id=2424395 "Kling.").)
 
 ## The Data
 This analysis uses timestamped taxi GPS records from the SFMTA and the NY Taxi and Limousine Commission. 
