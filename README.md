@@ -2,7 +2,7 @@
 # A latent Dirichlet allocation (LDA) model for taxi trips
 
 ## Question
-**How do the New York City and San Francisco taxi markets differ?**
+**_How do the New York City and San Francisco taxi markets differ?_**
 
 ## Motivation
 In 2014, I wanted to know how Uber was expanding the market for on-demand mobility. I suspected that in cities like New York the traditional taxi ecosystem was already well developed, so Uber not be a huge change. But cities like San Francisco have sparser taxi service, so Uber may be more market-expanding. 
@@ -23,7 +23,7 @@ The San Francisco dataset consists of complete trip records from one of the city
 ## Results
 The results suggest New Yorkers tend to use taxis in a broader range of cases, especially for commuting, whereas taxi usage in San Francisco is more specialized, with a greater focus on late night and airport trips. This demonstrates a way to infer taxi trip purposes from GPS data alone, without need for surveys or reliance on potentially biased data sources.
 
-NYC has more distinct trip types than does SF
+*NYC has more distinct trip types than does SF*
 <img src="images/facet-plots-both.png?raw=true" alt="facet-plot" width="592" height="525">
 
 ## Project Status
