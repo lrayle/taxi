@@ -18,10 +18,7 @@ In this application I used LDA to classify trips based on their spatial and temp
 ## The Data
 This analysis uses timestamped taxi GPS records from the SFMTA and the NY Taxi and Limousine Commission. 
 
-The San Francisco dataset consists of complete trip records (more than 700,000 total) from one of the city’s larger taxi companies for October 2012 and mid-July through October 2013. The New York data was made public [thanks to Chris Whong](http://chriswhong.com/open-data/foil_nyc_taxi/ "taxi data") and includes all trips in the city. I chose to use only October 2013, which totals more than 15 million trips. Of these I randomly sampled 10%. 
-
-The data cover the metropolitan area of each city. 
-The data are from 2012 and 2013, a time when Uber was only beginning to impact the taxi market.
+The San Francisco dataset consists of complete trip records from one of the city’s larger taxi companies for October 2012 and mid-July through October 2013. The New York data are available [here](http://chriswhong.com/open-data/foil_nyc_taxi/ "taxi data") and includes all trips in the city. I chose to use only October 2013, more than 15 million trips. Of these I randomly sampled 10%. 
 
 ## Results
 The results suggest New Yorkers tend to use taxis in a broader range of cases, especially for commuting, whereas taxi usage in San Francisco is more specialized, with a greater focus on late night and airport trips. This demonstrates a way to infer taxi trip purposes from GPS data alone, without need for surveys or reliance on potentially biased data sources.
@@ -30,6 +27,6 @@ The results suggest New Yorkers tend to use taxis in a broader range of cases, e
 ## Project Status
 This was a project prepared for Alexei Pozdnoukhov's Scalable Spatial Analytics course (CE263) at UC Berkeley in 2014. See 'LDA_writeup.pdf' for details. 
 
-The jupyter notebooks contain the code I used for data preparation, model building, and some visualization. 
+The jupyter notebooks contain the code I used for data preparation, model building, and some visualization-- including an implementation of the Gensim LDA model. 
 The code is untested and not very clean. In the future I may find time make it more reproducible. 
 
