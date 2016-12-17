@@ -40,8 +40,8 @@ All the trip types together. Note the spikes in SF on Friday and Saturday nights
 This demonstrates a way to infer taxi trip purposes from GPS data alone, without need for surveys or reliance on potentially biased data sources.
 
 ## Project Status
-This was a project prepared for Alexei Pozdnoukhov's Scalable Spatial Analytics course (CE263) at UC Berkeley in 2014. See the [project write-up](LDA_writeup.pdf) for details. 
-
 The jupyter notebooks contain the code I used for data preparation, model building, and some visualization - including an implementation of the [Gensim LDA model](https://radimrehurek.com/gensim/models/ldamodel.html). 
 The code was written with Python2. It is untested and not very clean. In the future I may find time make it more reproducible. 
+
+See the [project write-up](LDA_writeup.pdf) for methodological details. 
 
